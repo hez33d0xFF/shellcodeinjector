@@ -24,3 +24,15 @@ gcc -o shellcode_injector shellcode_injector.c
 ```bash
 ./shellcode_injector <arquivo_elf>
 ```
+
+## Link do VirusTotal
+
+[Link do VirusTotal após a injeção do shellcode](https://www.virustotal.com/gui/file/3c8915d4957fd3e274939cafe43b904208f954b38ac30ef7ac3d97f7f64be1f8?nocache=1)
+
+## To-do list
+
+- [ ] Adicionar suporte para injetar diferentes tipos de shellcode.
+- [ ] Obfuscar o shellcode.
+- [ ] Adicionar exemplos de uso para diferentes cenários.
+- [ ] Implementar a capacidade de reverter a injeção de shellcode
+
